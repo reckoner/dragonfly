@@ -90,14 +90,16 @@ PLATFORM_BUTTON_FLAGS = {
 }
 
 PLATFORM_WHEEL_FLAGS = {
-    "wheelup": (win32con.MOUSEEVENTF_WHEEL, 120),
-    "stepup": (win32con.MOUSEEVENTF_WHEEL, 40),
-    "wheeldown": (win32con.MOUSEEVENTF_WHEEL, -120),
-    "stepdown": (win32con.MOUSEEVENTF_WHEEL, -40),
+    "wheelup":    (win32con.MOUSEEVENTF_WHEEL, 120),
+    "scrollup":   (win32con.MOUSEEVENTF_WHEEL, 120),
+    "stepup":     (win32con.MOUSEEVENTF_WHEEL, 40),
+    "wheeldown":  (win32con.MOUSEEVENTF_WHEEL, -120),
+    "scrolldown": (win32con.MOUSEEVENTF_WHEEL, -120),
+    "stepdown":   (win32con.MOUSEEVENTF_WHEEL, -40),
     "wheelright": (MOUSEEVENTF_HWHEEL, 120),
-    "stepright": (MOUSEEVENTF_HWHEEL, 40),
-    "wheelleft": (MOUSEEVENTF_HWHEEL, -120),
-    "stepleft": (MOUSEEVENTF_HWHEEL, -40),
+    "stepright":  (MOUSEEVENTF_HWHEEL, 40),
+    "wheelleft":  (MOUSEEVENTF_HWHEEL, -120),
+    "stepleft":   (MOUSEEVENTF_HWHEEL, -40),
 }
 
 

@@ -69,14 +69,16 @@ PLATFORM_BUTTON_FLAGS = {
 
 
 PLATFORM_WHEEL_FLAGS = {
-    "wheelup": (1, 120),
-    "stepup": (1, 40),
-    "wheeldown": (1, -120),
-    "stepdown": (1, -40),
+    "wheelup":    (1, 120),
+    "scrollup":   (1, 120),
+    "stepup":     (1, 40),
+    "wheeldown":  (1, -120),
+    "scrolldown": (1, -120),
+    "stepdown":   (1, -40),
     "wheelright": (2, 120),
-    "stepright": (2, 40),
-    "wheelleft": (2, -120),
-    "stepleft": (2, -40),
+    "stepright":  (2, 40),
+    "wheelleft":  (2, -120),
+    "stepleft":   (2, -40),
 }
 
 
