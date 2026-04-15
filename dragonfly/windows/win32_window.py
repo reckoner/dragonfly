@@ -247,3 +247,8 @@ class Win32Window(BaseWindow):
         # Setting window focus without raising the window doesn't appear to
         # be possible in Windows, so fallback on set_foreground().
         self.set_foreground()
+
+    @property
+    def monitor(self):
+        """ The monitor containing this window (based on window center). """
+        return self.get_containing_monitor()
