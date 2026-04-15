@@ -110,9 +110,9 @@ Mouse button-press action:
     - ``right`` -- right (secondary) mouse button key
     - ``four`` -- fourth mouse button key
     - ``five`` -- fifth mouse button key
-    - ``wheelup`` -- mouse wheel up
+    - ``wheelup`` / ``scrollup`` -- mouse wheel up
     - ``stepup`` -- mouse wheel up 1/3
-    - ``wheeldown`` -- mouse wheel down
+    - ``wheeldown`` / ``scrolldown`` -- mouse wheel down
     - ``stepdown`` -- mouse wheel down 1/3
     - ``wheelright`` -- mouse wheel right
     - ``stepright`` -- mouse wheel right 1/3
